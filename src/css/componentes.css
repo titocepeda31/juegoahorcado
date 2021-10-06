@@ -1,0 +1,96 @@
+
+#ahorcado{
+     background-image: url('../assets/hangman-game_pm-1024x212.png');
+     width:207px ;
+     height:318px;
+     background-repeat: no-repeat;
+}
+
+h1{
+     text-transform: uppercase;
+     font-size: 33px;
+     text-align: center;
+}
+
+input[type=text] {
+     width: 70px;
+     height: 70px;
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+     font-size: 40px;
+     text-align: center;
+     text-transform: uppercase;
+     float: right;
+   }
+
+
+   .palabraGuiones{
+        font-size: 80px;
+        text-transform: uppercase;
+        line-height: 40px;
+        text-align: center;
+   }
+
+   #palabra{
+       font-style: italic;
+       font-size: 80px;
+       font-weight: bold;
+       line-height: 75px;
+   }
+
+   .indicaciones{
+        margin: 0px;
+        padding: 0px;
+        font-size: 20px;
+   }
+
+   button{
+        width: 150px;
+        height:40px;
+   }
+
+   .TextContadorFallos{
+        float:right;
+        font-size: 40px;
+        font-weight: bold;
+   }
+
+
+
+   .heart {
+     background-color: black;
+     display: inline-block;
+     height: 10px;
+     margin: 0 10px;
+     position: relative;
+     top: 0;
+     transform: rotate(-45deg);
+     width: 10px;
+   }
+   
+   .heart:before,
+   .heart:after {
+     content: "";
+     background-color: black;
+     border-radius: 50%;
+     height: 10px;
+     position: absolute;
+     width: 10px;
+   }
+   
+   .heart:before {
+     top: -6px;
+     left: 0;
+   }
+   
+   .heart:after {
+     left: 6px;
+     top: 0;
+   }
+
+
+   .ContadorDeFallos div{
+        float: right;
+        margin: 20px 0px;
+   }
