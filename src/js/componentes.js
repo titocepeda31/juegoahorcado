@@ -37,7 +37,7 @@ const letra = document.querySelector("#letra"),
 const playSoundGame = (e) =>{
   let audio = e,
       sound = new Howl({
-        src: [`/src/sound/${audio}.mp3`],
+        src: [`src/sound/${audio}.mp3`],
         volume: 1.0,   
       });
       sound.play();
